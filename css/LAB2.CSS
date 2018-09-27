@@ -1,0 +1,97 @@
+*{
+  font: 20px arial, sans-serif;
+}
+body {
+  margin: 15 20;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #50A0FF;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.rightAligned {
+  float: right;
+}
+.leftAligned {
+  float: left;
+}
+footer p{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 20px;
+ 
+}
+footer{
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+.post{
+  overflow: hidden;
+  display: block;
+  box-shadow: -2px 4px 8px 0 #99999999, 2px 4px 8px 0 #99999999;
+}
+.modal{
+  overflow: hidden;
+  display: block;
+  box-shadow: -2px 4px 8px 0 #99999999, 2px 4px 8px 0 #99999999;
+  margin:3%;
+  padding: 2%
+}
+.modal form>input{
+  /*outline: none;*/
+  padding: 5px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #99999999;
+  width:100%;
+}
+.submitArea{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.submitArea input{
+  border-radius: 4px;  
+  border:none;
+  padding: 7px 5px 2px 5px;
+}
+.blueButton {
+  background-color: #008CBA;
+  color: white;
+} 
+.redButton {
+  background-color: #F44336;
+  color: white;
+} 
+.orangeButton {
+  background-color: #FFA500;
+  color: black;
+} 
+
+
+.postMessageTitle{
+  /*text-align: center;*/
+}
